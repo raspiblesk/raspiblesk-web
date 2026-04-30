@@ -5,7 +5,7 @@ import type { SubmitHandler } from "react-hook-form";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router";
-import RaspiBlitzLogoDark from "@/assets/RaspiBlitz_Logo_Main_Negative.svg?react";
+import RaspiBlesk_Logo_Main_Negative from "@/assets/RaspiBlesk_Logo_Main_Negative.svg?react";
 import { Alert } from "@/components/Alert";
 import I18nSelect from "@/components/I18nDropdown";
 import { AppContext } from "@/context/app-context";
@@ -81,7 +81,7 @@ const Login: FC = () => {
         <I18nSelect />
       </div>
 
-      <RaspiBlitzLogoDark className="my-2 block h-10" />
+      <RaspiBlesk_Logo_Main_Negative className="my-2 block h-10" />
 
       {isLoading && <Spinner size="lg" />}
 

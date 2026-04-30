@@ -47,7 +47,7 @@ export const SideDrawer: FC = () => {
           </span>
         </NavLink>
         <NavLink
-          to="https://docs.raspiblitz.org/docs/intro"
+          to="https://glcoin.org"
           target="_blank"
           rel="noopener noreferrer"
           className={(props) => createClassName(props)}

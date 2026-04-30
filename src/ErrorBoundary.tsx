@@ -40,10 +40,10 @@ class ErrorBoundary extends Component<PropsWithChildren<Props>, State> {
             <p className="mt-2">
               {t("error.report")}{" "}
               <a
-                href="https://github.com/raspiblitz/raspiblitz-web/issues"
+                href="https://github.com/raspiblesk/raspiblesk-web/issues"
                 className="cursor-pointer text-blue-500"
               >
-                https://github.com/raspiblitz/raspiblitz-web/issues
+                https://github.com/raspiblesk/raspiblesk-web/issues
               </a>
             </p>
           </section>

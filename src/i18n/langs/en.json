@@ -49,15 +49,15 @@
       },
       "alby": {
         "about": "Alby Browser Extension",
-        "shortDescription": "Connect your RaspiBlitz LND node and use Bitcoin & Nostr apps with the Alby Extension",
+        "shortDescription": "Connect your RaspiBlesk LND node and use Glcoin & Lightning apps with the Alby Extension",
         "action": {
           "install": "Install",
           "addAccount": "Connect",
           "connection_info_error": "Could not get connection info",
           "connection": {
             "hint": "Please install the Alby extension first",
-            "success": "Raspiblitz account was added to Alby",
-            "error": "Adding Raspiblitz to Alby didn't work, please try again"
+            "success": "RaspiBlesk account was added to Alby",
+            "error": "Adding RaspiBlesk to Alby didn't work, please try again"
           }
         }
       }
@@ -159,7 +159,7 @@
     },
     "home": {
       "active": "Active",
-      "bitcoin": "Bitcoin",
+      "bitcoin": "Glcoin",
       "blockchain_size": "Blockchain Size",
       "blocks_synced": "Blocks synced",
       "blocktime": "Blocktime",
@@ -187,7 +187,7 @@
       "node_id": "NodeID",
       "node_uri": "Node URI",
       "normal": "Normal",
-      "onchain_cln_no_support": "On-chain transactions made before RaspiBlitz v1.9 may not show up with Core Lightning",
+      "onchain_cln_no_support": "On-chain transactions made before RaspiBlesk v1.9 may not show up with Core Lightning",
       "open_channel": "Open Channel",
       "pending_balance_local": "Pending Local Balance",
       "pending_balance_remote": "Pending Remote Balance",
@@ -252,7 +252,7 @@
       "pass_a_changed": "Password A changed successfully",
       "reboot": "Reboot",
       "shutdown": "Shutdown",
-      "shutdown_confirm": "Shutdown your RaspiBlitz?",
+      "shutdown_confirm": "Shutdown your RaspiBlesk?",
       "shutdown_info": "When shutdown is complete the activity light turns red and the LCD turns white.",
       "shutdown_info_disconnect_power": "Then wait 5 seconds and disconnect power.",
       "generate_debug": "Generate Debug Report",
@@ -270,7 +270,7 @@
         "step_4_description": "Set Passwords"
       },
       "setupmenu": {
-        "lets_setup": "Let's setup your RaspiBlitz",
+        "lets_setup": "Let's setup your RaspiBlesk",
         "setup_time": "The total setup process takes about 20 minutes"
       },
       "format": {
@@ -296,14 +296,14 @@
       "cl": "Bitcoin Full Node with Core Lightning Implementation",
       "cl_description": "Core Lightning (formerly known as c-lightning) is a Lightning Network implementation by Blockstream focused on performance and extendibility for developers and advanced users.",
       "continue": "Continue",
-      "convertwarning": "RaspiBlitz can only convert your Blockchain and Lightning data (funds + channels) at the moment. Data from additional installed apps might get deleted in the migraton process.",
-      "done_migration_ready": "OK. Everything is ready to migrate to RaspiBlitz.",
+      "convertwarning": "RaspiBlesk can only convert your Blockchain and Lightning data (funds + channels) at the moment. Data from additional installed apps might get deleted in the migraton process.",
+      "done_migration_ready": "OK. Everything is ready to migrate to RaspiBlesk.",
       "done_migration_start": "Start Migration",
-      "done_recover_ready": "OK. Everything is ready to recover your RaspiBlitz.",
+      "done_recover_ready": "OK. Everything is ready to recover your RaspiBlesk.",
       "done_recover_start": "Start Recovery",
-      "done_setup_ready": "OK. Everything is ready to setup your RaspiBlitz.",
+      "done_setup_ready": "OK. Everything is ready to setup your RaspiBlesk.",
       "done_setup_start": "Start Setup",
-      "done_update_ready": "OK. Everything is ready to update your RaspiBlitz.",
+      "done_update_ready": "OK. Everything is ready to update your RaspiBlesk.",
       "done_update_start": "Start Update",
       "final_do_reboot": "OK, do final Reboot",
       "final_info_reboot": "I have written down my seed words and their correct order",
@@ -312,15 +312,15 @@
       "final_seedwords": "Please write down your seed words. These can be used to recover your lightning wallet. The order in which they appear matters. Never share your seed words with anyone, and keep them safe!",
       "final_setup": "Configuration complete!",
       "final_update": "Update is finished.",
-      "lightningoutdated": "The node you want to migrate from uses a newer Lightning version than this RaspiBlitz. Please wait for an updated release. You can shutdown and startup with your old node sd card - no changes were made.",
+      "lightningoutdated": "The node you want to migrate from uses a newer Lightning version than this RaspiBlesk. Please wait for an updated release. You can shutdown and startup with your old node sd card - no changes were made.",
       "lnd": "Bitcoin Full Node with Lightning LND Implementation",
       "lnd_description": "Adding the Lightning Network Daemon (LND), developed by Lightning Labs, to a Bitcoin full node introduces capabilities for faster and cheaper transactions. LND is one of the most popular and user-friendly implementations of the Lightning Network.",
-      "migrate_to_os": "Do you want to migrate from {{os}} to RaspiBlitz?",
+      "migrate_to_os": "Do you want to migrate from {{os}} to RaspiBlesk?",
       "migrateblitz": "Migrate",
       "no_and_shutdown": "No and Shutdown",
       "ok": "OK",
       "other_options": "Other Options",
-      "password_a_details": "Also known as <0>Password A</0>. Use this password for login to your RaspiBlitz.",
+      "password_a_details": "Also known as <0>Password A</0>. Use this password for login to your RaspiBlesk.",
       "password_a_name": "Node Password",
       "password_a_short": "Set your <0>Node</0> password",
       "password_b_details": "Also known as <0>Password B</0>. Some apps require a password to install.",
@@ -337,7 +337,7 @@
       "pleasewait": "Please wait",
       "preparingsetup": "Preparing setup",
       "recoverblitz": "Recover",
-      "restartinfo": "Please wait until RaspiBlitz answers again",
+      "restartinfo": "Please wait until RaspiBlesk answers again",
       "restarting": "Restarting",
       "restarts": "Restarts",
       "runningsetup": "Running Setup",
@@ -361,7 +361,7 @@
       "sync_wallet_unlock": "Unlock Wallet",
       "updateblitz": "Update",
       "yes": "Yes",
-      "yes_and_migrate": "Migrate to RaspiBlitz"
+      "yes_and_migrate": "Migrate to RaspiBlesk"
     },
     "tx": {
       "click_to_collapse": "Click to collapse",

@@ -42,7 +42,7 @@ export const AppCardAlby: FC = () => {
       await albyProvider.enable();
 
       const result = await albyProvider.addAccount({
-        name: "⚡️ Raspiblitz",
+        name: "⚡️ RaspiBlesk",
         connector: "lnd",
         config: {
           adminkey: lnd_admin_macaroon,

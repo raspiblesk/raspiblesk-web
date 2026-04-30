@@ -50,7 +50,7 @@ export default function LightningDialog({ callback }: Props) {
                 // biome-ignore lint/a11y/useAnchorContent: value is expected to exist at this point
                 <a
                   key="link"
-                  href="https://docs.raspiblitz.org/docs/setup/software-setup/basic"
+                  href="https://glcoin.org"
                   className="text-primary underline"
                   target="_blank"
                   rel="noreferrer"

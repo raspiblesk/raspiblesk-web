@@ -93,7 +93,7 @@
       "no": "No",
       "node_uri": "URI del nodo",
       "normal": "Normal",
-      "onchain_cln_no_support": "Las transacciones en cadena realizadas antes de RaspiBlitz v1.9 pueden no aparecer con Core Lightning",
+      "onchain_cln_no_support": "Las transacciones en cadena realizadas antes de RaspiBlesk v1.9 pueden no aparecer con Core Lightning",
       "open_channel": "Abrir Canal",
       "pending_balance_local": "Balance Local Pendiente",
       "pending_balance_remote": "Balance Remoto Pendiente",
@@ -163,7 +163,7 @@
       "generate_debug": "Generar un informe de depuración",
       "generating_debug_report": "Generar informe de depuración. Esto puede llevar algún tiempo.",
       "generating": "Generando",
-      "shutdown_confirm": "¿Apagar tu RaspiBlitz?",
+      "shutdown_confirm": "¿Apagar tu RaspiBlesk?",
       "shutdown_info": "Cuando se completa el apagado, la luz de actividad se vuelve roja y la pantalla LCD se vuelve blanca.",
       "shutdown_info_disconnect_power": "A continuación, espere 5 segundos y desconecte la alimentación."
     },
@@ -182,8 +182,8 @@
       "blockchain_keep": "Mantener la cadena de bloques",
       "cancel": "Cancelar",
       "continue": "Continuar",
-      "convertwarning": "RaspiBlitz solo puede convertir tus datos Blockchain y Lightning (fondos y canales) de momento. Los datos de aplicaciones adicionales se podrían perder en el proceso de migración.",
-      "lightningoutdated": "El nodo desde el que quieres migrar usa una versión posterior que esta RaspiBlitz. Por favor, espera a una versión actualizada. Puedes apagar y encender con la tarjeta sd anterior de tu nodo - no se han realizado cambios.",
+      "convertwarning": "RaspiBlesk solo puede convertir tus datos Blockchain y Lightning (fondos y canales) de momento. Los datos de aplicaciones adicionales se podrían perder en el proceso de migración.",
+      "lightningoutdated": "El nodo desde el que quieres migrar usa una versión posterior que esta RaspiBlesk. Por favor, espera a una versión actualizada. Puedes apagar y encender con la tarjeta sd anterior de tu nodo - no se han realizado cambios.",
       "migrateblitz": "Migrar",
       "no_and_shutdown": "No y apagar",
       "ok": "OK",
@@ -192,7 +192,7 @@
       "pleasewait": "Por favor espera",
       "preparingsetup": "Preparando instalación",
       "recoverblitz": "Recuperar",
-      "restartinfo": "Por favor espera hasta que RaspiBlitz responda de nuevo",
+      "restartinfo": "Por favor espera hasta que RaspiBlesk responda de nuevo",
       "restarting": "Reiniciando",
       "runningsetup": "Ejecutando instalación",
       "setupblitz": "Nueva configuración",
@@ -203,15 +203,15 @@
       "start_update": "¿Te gustaría empezar la actualización y el proceso de recuperación?",
       "updateblitz": "Actualizar",
       "yes": "Sí",
-      "yes_and_migrate": "Migrar a RaspiBlitz",
+      "yes_and_migrate": "Migrar a RaspiBlesk",
       "cancel_setup": "De verdad quiere cancelar el proceso de configuración",
       "done_setup_start": "Comenzar Configuración",
-      "done_update_ready": "OK. Todo está listo para actualizar tu RaspiBlitz.",
+      "done_update_ready": "OK. Todo está listo para actualizar tu RaspiBlesk.",
       "done_update_start": "Comenzar Actualización",
       "password_c_details": "También conocida como <0>Contraseña C</0>. Se utilizará para acceder a tu monedero lightning o bitcoin.",
       "password_error_match": "Las Contraseñas no son iguales.",
       "password_repeat": "Repetir",
-      "done_migration_ready": "OK. Todo está listo para migrar a RaspiBlitz.",
+      "done_migration_ready": "OK. Todo está listo para migrar a RaspiBlesk.",
       "done_migration_start": "Comenzar Migración",
       "final_seedwords": "Por favor, escribe tus palabras clave. Se pueden utilizar para recuperar tu monedero relámpago. El orden en que aparecen es importante. Nunca compartas tus palabras semilla con nadie, ¡y guárdalas a buen recaudo!",
       "lnd": "Nodo completo Bitcoin con implementación Lightning LND",
@@ -226,16 +226,16 @@
       "sync_bitcoin_starting": "Comenzando sincronización",
       "sync_wallet_info": "Por favor desbloquee su Cartera Lightning (Contraseña C):",
       "password_a_short": "Establace tu contraseña de <0>Nodo</0",
-      "done_recover_ready": "OK. Todo está listo para recuperar tu RaspiBlitz.",
+      "done_recover_ready": "OK. Todo está listo para recuperar tu RaspiBlesk.",
       "done_recover_start": "Comenzar Recuperación",
-      "done_setup_ready": "OK. Todo está listo para configurar tu RaspiBlitz.",
+      "done_setup_ready": "OK. Todo está listo para configurar tu RaspiBlesk.",
       "final_do_reboot": "OK, hacer Reinicio final",
       "final_info_reboot": "He escrito mis palabras clave y su orden correcto",
       "final_migration": "La Migración ha finalizado.",
       "final_recovery": "La Recuperación ha finalizado.",
       "final_setup": "¡Configuración completada!",
       "final_update": "La Actualización ha finalizado.",
-      "password_a_details": "También conocida como <0>Contraseña A</0>. Utiliza esta contraseña para iniciar sesión en tu RaspiBlitz.",
+      "password_a_details": "También conocida como <0>Contraseña A</0>. Utiliza esta contraseña para iniciar sesión en tu RaspiBlesk.",
       "password_b_details": "También conocida como <0>Contraseña B</0>. Algunas aplicaciones requieren una contraseña para instalarse.",
       "password_c_name": "Contraseña de la cartera",
       "password_c_short": "Establece la contraseña a tu cartera <0>Cartera</0>",
@@ -262,12 +262,12 @@
         "step_4_description": "Establecer Contraseñas"
       },
       "setupmenu": {
-        "lets_setup": "Configuremos su RaspiBlitz",
+        "lets_setup": "Configuremos su RaspiBlesk",
         "setup_time": "El proceso de configuración total tarda unos 20 minutos"
       },
       "cl": "Nodo Completo de Bitcoin con Implementación Básica de Lightning",
       "cl_description": "Core Lightning (anteriormente conocido como c-lightning) es una implementación de Lightning Network de Blockstream centrada en el rendimiento y la extensibilidad para desarrolladores y usuarios avanzados.",
-      "migrate_to_os": "¿Quieres migrar desde {{os}} a RaspiBlitz?"
+      "migrate_to_os": "¿Quieres migrar desde {{os}} a RaspiBlesk?"
     },
     "tx": {
       "comment": "Comentario",
@@ -330,7 +330,7 @@
       "btcpayserver": {
         "about": "BTCPay Server es un procesador de pagos de Bitcoin libre y de código abierto que te permite aceptar bitcoin sin comisiones o intermediarios.",
         "shortDescription": "Acepta pagos en Bitcoin. Procesador de pagos en Bitcoin, libre, de código abierto y auto alojado.",
-        "ram_warning": "Su sistema tiene menos de los 8 GB de RAM recomendados para ejecutar BTCPayServer en RaspiBlitz. Esto podría provocar inestabilidad si procede con la instalación."
+        "ram_warning": "Su sistema tiene menos de los 8 GB de RAM recomendados para ejecutar BTCPayServer en RaspiBlesk. Esto podría provocar inestabilidad si procede con la instalación."
       },
       "mempool": {
         "about": " Un explorador de código abierto desarrollado para la comunidad Bitcoin, que se centra en el emergente mercado de las comisiones de transacción para ayudar nuestra transición a un ecosistema multicapa.",
@@ -358,18 +358,18 @@
           "connection_info_error": "No se ha podido obtener información de la conexión",
           "connection": {
             "hint": "Por favor, instala primero la extensión Alby",
-            "success": "La cuenta Raspiblitz se añadió a Alby",
-            "error": "Al añadir Raspiblitz a Alby fallo, por favor inténtalo de nuevo"
+            "success": "La cuenta RaspiBlesk se añadió a Alby",
+            "error": "Al añadir RaspiBlesk a Alby fallo, por favor inténtalo de nuevo"
           },
           "addAccount": "Conectar"
         },
         "about": "Extensión del navegador Alby",
-        "shortDescription": "Conecta tu nodo RaspiBlitz LND y utiliza aplicaciones Bitcoin y Nostr con la extensión Alby"
+        "shortDescription": "Conecta tu nodo RaspiBlesk LND y utiliza aplicaciones Bitcoin y Nostr con la extensión Alby"
       },
       "electrs": {
         "about": "Electrs es una reimplementación eficiente de Electrum Server en Rust. Indexa toda la cadena de bloques de Bitcoin y permite que su nodo Lightning lo consulte para transacciones en cadena.",
         "shortDescription": "Reimplementación eficiente del servidor Electrum en Rust",
-        "initialSync": "La base de datos de índices debe crearse antes de poder utilizar Electrum Server. Esto puede llevar horas / días dependiendo de su RaspiBlitz. Por favor, vuelva a consultar más tarde.",
+        "initialSync": "La base de datos de índices debe crearse antes de poder utilizar Electrum Server. Esto puede llevar horas / días dependiendo de su RaspiBlesk. Por favor, vuelva a consultar más tarde.",
         "connectLocal": "Conectar al servidor Electrum a través de su red local",
         "connectTor": "Conéctese al servidor Electrum a través de Tor",
         "connectionInfo": "Estas direcciones le permiten conectar su cartera u otras aplicaciones a su nodo utilizando Electrs. Use la conexión local si está en la misma red que su nodo o la dirección Tor para acceso remoto con mayor privacidad.",

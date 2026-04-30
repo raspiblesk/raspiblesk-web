@@ -8,7 +8,7 @@
       "btcpayserver": {
         "about": "A BTCPay Server egy ingyenes és nyílt forráskódú Bitcoin fizetésfeldolgozó, amely lehetővé teszi a bitcoin elfogadását díjak vagy közvetítők nélkül.",
         "shortDescription": "Fogadjon el Bitcoin fizetéseket. Ingyenes, nyílt forráskódú és saját üzemeltetésű Bitcoin fizetésfeldolgozó.",
-        "ram_warning": "Rendszerében kevesebb, mint az ajánlott 8 GB RAM van a BTCPayServer RaspiBlitz-en való futtatásához. Ez instabilitáshoz vezethet, ha folytatja a telepítést."
+        "ram_warning": "Rendszerében kevesebb, mint az ajánlott 8 GB RAM van a BTCPayServer RaspiBlesk-en való futtatásához. Ez instabilitáshoz vezethet, ha folytatja a telepítést."
       },
       "lnbits": {
         "about": "Az LNbits egy nagyon egyszerű Python szerver, amely bármilyen finanszírozási forrásra épül, és fiókrendszerként használható az alkalmazások teljes egyenlegnek való kitettségének kockázatának csökkentésére, minden pénztárcához egyedi API-kulcsok révén.",
@@ -37,7 +37,7 @@
       "electrs": {
         "about": "Az Electrs az Electrum Server hatékony újraimplementálása Rust nyelven. Indexeli a teljes Bitcoin blokkláncot, és lehetővé teszi Lightning csomópontja számára, hogy lekérdezze a láncon lévő tranzakciókat.",
         "shortDescription": "Az Electrum Server hatékony újraimplementálása Rust nyelven",
-        "initialSync": "Az index adatbázist létre kell hozni, mielőtt az Electrum Server használható lenne. Ez órákig/napokig tarthat a RaspiBlitz-étől függően. Kérjük, nézzen vissza később.",
+        "initialSync": "Az index adatbázist létre kell hozni, mielőtt az Electrum Server használható lenne. Ez órákig/napokig tarthat a RaspiBlesk-étől függően. Kérjük, nézzen vissza később.",
         "connectLocal": "Csatlakozás az Electrum Serverhez a helyi hálózaton keresztül",
         "connectTor": "Csatlakozás az Electrum Serverhez Tor-on keresztül",
         "connectionInfo": "Ezek a címek lehetővé teszik, hogy pénztárcáját vagy más alkalmazásokat csatlakoztasson csomópontjához az Electrs használatával. Használja a helyi kapcsolatot, ha ugyanazon a hálózaton van, mint a csomópontja, vagy a Tor címet a fokozott adatvédelemmel történő távoli hozzáféréshez.",
@@ -49,15 +49,15 @@
       },
       "alby": {
         "about": "Alby böngésző bővítmény",
-        "shortDescription": "Csatlakoztassa RaspiBlitz LND csomópontját és használjon Bitcoin és Nostr alkalmazásokat az Alby bővítménnyel",
+        "shortDescription": "Csatlakoztassa RaspiBlesk LND csomópontját és használjon Bitcoin és Nostr alkalmazásokat az Alby bővítménnyel",
         "action": {
           "install": "Telepítés",
           "addAccount": "Csatlakozás",
           "connection_info_error": "Nem sikerült lekérni a kapcsolati információkat",
           "connection": {
             "hint": "Kérjük, először telepítse az Alby bővítményt",
-            "success": "A Raspiblitz fiók hozzá lett adva az Alby-hoz",
-            "error": "A Raspiblitz Alby-hoz való hozzáadása nem működött, kérjük, próbálja újra"
+            "success": "A RaspiBlesk fiók hozzá lett adva az Alby-hoz",
+            "error": "A RaspiBlesk Alby-hoz való hozzáadása nem működött, kérjük, próbálja újra"
           }
         }
       }
@@ -161,7 +161,7 @@
       "node_id": "Csomópont azonosító",
       "node_uri": "Csomópont URI",
       "normal": "Normál",
-      "onchain_cln_no_support": "A RaspiBlitz v1.9 előtt végrehajtott láncon lévő tranzakciók nem feltétlenül jelennek meg a Core Lightning-gal",
+      "onchain_cln_no_support": "A RaspiBlesk v1.9 előtt végrehajtott láncon lévő tranzakciók nem feltétlenül jelennek meg a Core Lightning-gal",
       "open_channel": "Csatorna megnyitása",
       "pending_balance_local": "Függőben lévő helyi egyenleg",
       "pending_balance_remote": "Függőben lévő távoli egyenleg",
@@ -224,7 +224,7 @@
       "pass_a_changed": "A jelszó sikeresen módosítva",
       "reboot": "Újraindítás",
       "shutdown": "Leállítás",
-      "shutdown_confirm": "Leállítja a RaspiBlitz-et?",
+      "shutdown_confirm": "Leállítja a RaspiBlesk-et?",
       "shutdown_info": "Amikor a leállítás befejeződik, az aktivitás jelzőfény pirosra vált, és az LCD fehérre vált.",
       "shutdown_info_disconnect_power": "Ezután várjon 5 másodpercet, és húzza ki a tápellátást.",
       "generate_debug": "Hibakeresési jelentés létrehozása",
@@ -242,7 +242,7 @@
         "step_4_description": "Jelszavak beállítása"
       },
       "setupmenu": {
-        "lets_setup": "Állítsuk be a RaspiBlitz-et",
+        "lets_setup": "Állítsuk be a RaspiBlesk-et",
         "setup_time": "A teljes beállítási folyamat körülbelül 20 percet vesz igénybe"
       },
       "format": {
@@ -268,14 +268,14 @@
       "cl": "Bitcoin teljes csomópont Core Lightning implementációval",
       "cl_description": "A Core Lightning (korábban c-lightning) a Blockstream által készített Lightning Network implementáció, amely a teljesítményre és a fejlesztők és haladó felhasználók számára történő bővíthetőségre összpontosít.",
       "continue": "Folytatás",
-      "convertwarning": "A RaspiBlitz jelenleg csak a Blokklánc és Lightning adatait (pénzeszközök + csatornák) tudja konvertálni. A további telepített alkalmazások adatai törlődhetnek a migrációs folyamat során.",
-      "done_migration_ready": "OK. Minden kész a RaspiBlitz-re történő migráláshoz.",
+      "convertwarning": "A RaspiBlesk jelenleg csak a Blokklánc és Lightning adatait (pénzeszközök + csatornák) tudja konvertálni. A további telepített alkalmazások adatai törlődhetnek a migrációs folyamat során.",
+      "done_migration_ready": "OK. Minden kész a RaspiBlesk-re történő migráláshoz.",
       "done_migration_start": "Migráció indítása",
-      "done_recover_ready": "OK. Minden kész a RaspiBlitz helyreállításához.",
+      "done_recover_ready": "OK. Minden kész a RaspiBlesk helyreállításához.",
       "done_recover_start": "Helyreállítás indítása",
-      "done_setup_ready": "OK. Minden kész a RaspiBlitz beállításához.",
+      "done_setup_ready": "OK. Minden kész a RaspiBlesk beállításához.",
       "done_setup_start": "Beállítás indítása",
-      "done_update_ready": "OK. Minden kész a RaspiBlitz frissítéséhez.",
+      "done_update_ready": "OK. Minden kész a RaspiBlesk frissítéséhez.",
       "done_update_start": "Frissítés indítása",
       "final_do_reboot": "OK, végső újraindítás",
       "final_info_reboot": "Leírtam a seed szavaimat és azok helyes sorrendjét",
@@ -284,15 +284,15 @@
       "final_seedwords": "Kérjük, írja le a seed szavait. Ezek felhasználhatók a lightning pénztárcája helyreállításához. A megjelenésük sorrendje számít. Soha ne ossza meg a seed szavait senkivel, és tartsa őket biztonságban!",
       "final_setup": "Konfiguráció befejezve!",
       "final_update": "A frissítés befejeződött.",
-      "lightningoutdated": "A migrálni kívánt csomópont újabb Lightning verziót használ, mint ez a RaspiBlitz. Kérjük, várjon egy frissített kiadásra. Leállíthatja és elindíthatja a régi csomópont sd kártyájával - nem történtek változtatások.",
+      "lightningoutdated": "A migrálni kívánt csomópont újabb Lightning verziót használ, mint ez a RaspiBlesk. Kérjük, várjon egy frissített kiadásra. Leállíthatja és elindíthatja a régi csomópont sd kártyájával - nem történtek változtatások.",
       "lnd": "Bitcoin teljes csomópont Lightning LND implementációval",
       "lnd_description": "A Lightning Labs által fejlesztett Lightning Network Daemon (LND) hozzáadása egy Bitcoin teljes csomóponthoz gyorsabb és olcsóbb tranzakciók lehetőségét vezeti be. Az LND a Lightning Network egyik legnépszerűbb és legfelhasználóbarátabb implementációja.",
-      "migrate_to_os": "Szeretné migrálni {{os}}-ről RaspiBlitz-re?",
+      "migrate_to_os": "Szeretné migrálni {{os}}-ről RaspiBlesk-re?",
       "migrateblitz": "Migrálás",
       "no_and_shutdown": "Nem és leállítás",
       "ok": "OK",
       "other_options": "Egyéb lehetőségek",
-      "password_a_details": "Más néven <0>A jelszó</0>. Használja ezt a jelszót a RaspiBlitz-be való bejelentkezéshez.",
+      "password_a_details": "Más néven <0>A jelszó</0>. Használja ezt a jelszót a RaspiBlesk-be való bejelentkezéshez.",
       "password_a_name": "Csomópont jelszó",
       "password_a_short": "Állítsa be a <0>Csomópont</0> jelszót",
       "password_b_details": "Más néven <0>B jelszó</0>. Néhány alkalmazás telepítéséhez jelszó szükséges.",
@@ -309,7 +309,7 @@
       "pleasewait": "Kérjük, várjon",
       "preparingsetup": "Beállítás előkészítése",
       "recoverblitz": "Helyreállítás",
-      "restartinfo": "Kérjük, várjon, amíg a RaspiBlitz újra válaszol",
+      "restartinfo": "Kérjük, várjon, amíg a RaspiBlesk újra válaszol",
       "restarting": "Újraindítás",
       "restarts": "Újraindítások",
       "runningsetup": "Beállítás futtatása",
@@ -333,7 +333,7 @@
       "sync_wallet_unlock": "Pénztárca feloldása",
       "updateblitz": "Frissítés",
       "yes": "Igen",
-      "yes_and_migrate": "Migrálás a RaspiBlitz-re"
+      "yes_and_migrate": "Migrálás a RaspiBlesk-re"
     },
     "tx": {
       "comment": "Megjegyzés",

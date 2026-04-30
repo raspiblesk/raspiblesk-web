@@ -16,8 +16,8 @@ import {
 import { type Key, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router";
-import RaspiBlitzMobileLogo from "@/assets/RaspiBlitz_Logo_Icon.svg?react";
-import RaspiBlitzLogoDark from "@/assets/RaspiBlitz_Logo_Main_Negative.svg?react";
+import RaspiBlesk_Logo_Icon from "@/assets/RaspiBlesk_Logo_Icon.svg?react";
+import RaspiBlesk_Logo_Main_Negative from "@/assets/RaspiBlesk_Logo_Main_Negative.svg?react";
 import { AppContext, Unit } from "@/context/app-context";
 import { SSEContext } from "@/context/sse-context";
 
@@ -41,8 +41,8 @@ export default function Header() {
   return (
     <header className="fixed top-0 z-50 mx-auto flex h-16 w-full items-center justify-between border-b border-gray-300 bg-gray-800 px-8 text-gray-300 shadow-md transition-colors">
       <NavLink to="/">
-        <RaspiBlitzMobileLogo className="h-8 w-8 text-white md:hidden" />
-        <RaspiBlitzLogoDark className="hidden h-8 md:block" />
+        <RaspiBlesk_Logo_Icon className="h-8 w-8 text-white md:hidden" />
+        <RaspiBlesk_Logo_Main_Negative className="hidden h-8 md:block" />
       </NavLink>
 
       <div className="text-xl font-bold">{systemInfo.alias}</div>
@@ -75,7 +75,7 @@ export default function Header() {
 
             <DropdownItem
               key="documentation"
-              href="https://docs.raspiblitz.org/docs/intro"
+              href="https://glcoin.org"
               target="_blank"
               rel="noopener noreferrer"
               startContent={<BookOpenIcon className="h-5 w-5" />}

@@ -63,7 +63,7 @@ export default function InputNodeName({ callback }: Props) {
                 }}
                 type="text"
                 label={t("setup.input_node.label")}
-                placeholder="e.g. MyRaspiBlitz"
+                placeholder="e.g. MyRaspiBlesk"
                 isInvalid={!!errors.inputNodeName}
                 errorMessage={errors.inputNodeName?.message}
                 {...register("inputNodeName", {

@@ -36,16 +36,16 @@
       "alby": {
         "action": {
           "connection": {
-            "success": "Le compte Raspiblitz a été ajouté à Alby",
+            "success": "Le compte RaspiBlesk a été ajouté à Alby",
             "hint": "Veuillez d'abord installer l'extension Alby",
-            "error": "L'ajout de Raspiblitz à Alby n'a pas fonctionné, veuillez réessayer"
+            "error": "L'ajout de RaspiBlesk à Alby n'a pas fonctionné, veuillez réessayer"
           },
           "install": "Installer Alby",
           "addAccount": "Connecter",
           "connection_info_error": "Impossible d'obtenir les informations de connexion"
         },
         "about": "Extension du navigateur Alby",
-        "shortDescription": "Connectez votre nœud RaspiBlitz LND et utilisez les applications Bitcoin & Nostr avec l'extension Alby"
+        "shortDescription": "Connectez votre nœud RaspiBlesk LND et utilisez les applications Bitcoin & Nostr avec l'extension Alby"
       }
     },
     "apps": {
@@ -211,7 +211,7 @@
       "debug_report_done": "Rapport de débogage créé !",
       "generate_debug": "Générer un rapport de débogage",
       "generating_debug_report": "Génération du rapport de débogage. Cela peut prendre un certain temps.",
-      "shutdown_confirm": "Arrêter votre RaspiBlitz ?",
+      "shutdown_confirm": "Arrêter votre RaspiBlesk ?",
       "shutdown_info": "Une fois l'arrêt terminé, le voyant d'activité devient rouge et l'écran LCD devient blanc.",
       "shutdown_info_disconnect_power": "Attendez ensuite 5 secondes et débranchez l'alimentation."
     },
@@ -229,14 +229,14 @@
       "cancel": "Annuler",
       "cancel_setup": "Voulez-vous vraiment annuler le processus de configuration",
       "continue": "Continuer",
-      "convertwarning": "RaspiBlitz peut seulement convertir vos données Blockchain et Lightning (fonds + canaux) pour le moment. Les données des autres applications installées peuvent être supprimées lors du processus de migration.",
-      "done_migration_ready": "OK. Tout est prêt pour migrer vers RaspiBlitz.",
+      "convertwarning": "RaspiBlesk peut seulement convertir vos données Blockchain et Lightning (fonds + canaux) pour le moment. Les données des autres applications installées peuvent être supprimées lors du processus de migration.",
+      "done_migration_ready": "OK. Tout est prêt pour migrer vers RaspiBlesk.",
       "done_migration_start": "Commencer la migration",
-      "done_recover_ready": "OK. Tout est prêt pour récupérer votre RaspiBlitz.",
+      "done_recover_ready": "OK. Tout est prêt pour récupérer votre RaspiBlesk.",
       "done_recover_start": "Commencez la récupération",
-      "done_setup_ready": "OK. Tout est prêt pour installer votre RaspiBlitz.",
+      "done_setup_ready": "OK. Tout est prêt pour installer votre RaspiBlesk.",
       "done_setup_start": "Démarrer l'installation",
-      "done_update_ready": "OK. Tout est prêt pour mettre à jour votre RaspiBlitz.",
+      "done_update_ready": "OK. Tout est prêt pour mettre à jour votre RaspiBlesk.",
       "done_update_start": "Commencer la mise à jour",
       "final_do_reboot": "OK, faites le redémarrage final",
       "final_info_reboot": "va maintenant redémarrer et synchroniser la blockchain.",
@@ -245,16 +245,16 @@
       "final_seedwords": "Veuillez noter vos mots-clés et les conserver dans un endroit sûr :",
       "final_setup": "L'installation est terminée.",
       "final_update": "La mise à jour est terminée.",
-      "lightningoutdated": "Le nœud à partir duquel vous voulez migrer utilise une version Lightning plus récente que ce RaspiBlitz. Veuillez attendre une version mise à jour. Vous pouvez arrêter et démarrer avec la carte sd de votre ancien nœud - aucun changement n'a été fait.",
+      "lightningoutdated": "Le nœud à partir duquel vous voulez migrer utilise une version Lightning plus récente que ce RaspiBlesk. Veuillez attendre une version mise à jour. Vous pouvez arrêter et démarrer avec la carte sd de votre ancien nœud - aucun changement n'a été fait.",
       "lnd": "LND",
-      "migrateblitz": "Migrer vers RaspiBlitz",
+      "migrateblitz": "Migrer vers RaspiBlesk",
       "no_and_shutdown": "Non et arrêt",
       "ok": "OK",
       "other_options": "Autres options",
-      "password_a_details": "Utilisez ce mot de passe pour vous connecter à votre RaspiBlitz.",
+      "password_a_details": "Utilisez ce mot de passe pour vous connecter à votre RaspiBlesk.",
       "password_a_name": "Mot de passe A",
       "password_a_short": "Définissez votre nouveau mot de passe d'administrateur (mot de passe A)",
-      "password_b_details": "Utilisez ce mot de passe pour les applications supplémentaires que vous pouvez installer sur votre RaspiBlitz.",
+      "password_b_details": "Utilisez ce mot de passe pour les applications supplémentaires que vous pouvez installer sur votre RaspiBlesk.",
       "password_b_name": "Mot de passe B",
       "password_b_short": "Définissez votre nouveau mot de passe d'application (mot de passe B)",
       "password_c_details": "Utilisez ce mot de passe pour déverrouiller votre Wallet Lightning .",
@@ -267,13 +267,13 @@
       "password_repeat": "Répéter",
       "pleasewait": "veuillez patienter",
       "preparingsetup": "préparation de l'installation",
-      "recoverblitz": "Récupération de mon RaspiBlitz",
-      "restartinfo": "veuillez attendre que RaspiBlitz réponde à nouveau",
+      "recoverblitz": "Récupération de mon RaspiBlesk",
+      "restartinfo": "veuillez attendre que RaspiBlesk réponde à nouveau",
       "restarting": "redémarrage",
       "restarts": "Redémarre",
       "runningsetup": "Lancer l'installation",
       "select_lightning": "Choisissez votre Implementaion Lightning :",
-      "setupblitz": "Configurer un nouveau RaspiBlitz",
+      "setupblitz": "Configurer un nouveau RaspiBlesk",
       "setupoptions": "Options d'installation",
       "setupwait": "L'installation prendra quelques minutes",
       "shuttingdown": "mise hors tension",
@@ -282,13 +282,13 @@
       "started": "Démarré",
       "sync_bitcoin_starting": "Démarrage de la synchronisation",
       "sync_bitcoin_sync": "Progrès de la synchronisation",
-      "sync_headline": "Synchronisation initiale de RaspiBlitz",
+      "sync_headline": "Synchronisation initiale de RaspiBlesk",
       "sync_restartinfo": "(la synchronisation se poursuivra au prochain redémarrage)",
       "sync_wallet_info": "Veuillez déverrouiller votre Lightning Wallet (mot de passe C) :",
       "sync_wallet_unlock": "Déverrouiller le portefeuille",
-      "updateblitz": "Mettre à jour mon RaspiBlitz",
+      "updateblitz": "Mettre à jour mon RaspiBlesk",
       "yes": "Oui",
-      "yes_and_migrate": "Migrer vers RaspiBlitz"
+      "yes_and_migrate": "Migrer vers RaspiBlesk"
     },
     "tx": {
       "comment": "Commentaire",

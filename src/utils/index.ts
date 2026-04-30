@@ -77,9 +77,9 @@ export function disableGutter(): void {
 
 export function setWindowAlias(nodeAlias: string | null): void {
   if (!nodeAlias) {
-    document.title = "RaspiBlitz Web";
+    document.title = "RaspiBlesk";
   } else {
-    document.title = `RaspiBlitz - ${nodeAlias}`;
+    document.title = `RaspiBlesk - ${nodeAlias}`;
   }
 }
 

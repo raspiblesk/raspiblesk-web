@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { SSEContext } from "@/context/sse-context";
 
 /**
- * Displays the versions of RaspiBlitz, the WebUI and the Blitz-API
+ * Displays the versions of RaspiBlesk, the WebUI and the Blitz-API
  */
 const VersionBox: FC = () => {
   const { t } = useTranslation();
@@ -18,10 +18,10 @@ const VersionBox: FC = () => {
         <h5 className="font-bold">{t("home.versions")}</h5>
         <article>
           <p>
-            RaspiBlitz: <b>{platform_version}</b>
+            RaspiBlesk: <b>{platform_version}</b>
           </p>
           <p>
-            RaspiBlitz WebUI: <b>{packageJson.version}</b>
+            RaspiBlesk WebUI: <b>{packageJson.version}</b>
           </p>
           <p>
             Blitz-API: <b>{api_version}</b>

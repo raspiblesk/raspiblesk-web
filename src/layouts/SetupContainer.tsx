@@ -20,7 +20,7 @@ export default function SetupContainer({
       <div className="fixed top-16 flex h-8 w-48 flex-col-reverse items-center justify-center gap-6 md:right-16 md:top-6 md:w-96 md:flex-row md:gap-4">
         <Button
           as="a"
-          href="https://docs.raspiblitz.org/"
+          href="https://glcoin.org"
           target="_blank"
           rel="noreferrer"
           color="primary"
